@@ -1,0 +1,79 @@
+/* Center all elements, including video player and text */
+.video-container {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.video-player {
+  margin: 0 auto; /* Center horizontally */
+  max-width: 100%; /* Ensure it doesn't exceed the container's width */
+  height: auto; /* Allow the height to adjust proportionally */
+}
+
+
+
+/* Center text and buttons */
+.centered-content {
+  text-align: center;
+  margin-left:20px ;
+}
+
+/* Default styles for text */
+/* Default styles for text */
+/* Default styles for text */
+.animated-text1 {
+  max-width: 800px;
+  padding: 20px;
+  font-size: 28px; /* Increased font size for a more prominent title */
+  color: #333; /* Darker text color for better readability */
+  line-height: 1.4; /* Improved line spacing for better readability */
+  margin: 0 auto; /* Center horizontally by setting left and right margins to "auto" */
+}
+
+/* Responsive styles for text on smaller screens */
+@media (max-width: 768px) {
+  .animated-text1 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+/* Responsive styles for text on smaller screens */
+@media (max-width: 768px) {
+  .animated-text1 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+    margin-left: 40px;
+  }
+
+
+
+  /* Center all elements, including video player and text */
+  .video-container {
+    text-align: center;
+  }
+
+  .video-player {
+    margin: 0 auto; /* Center horizontally */
+  }
+}
+
+/* Default styles for text */
+.animated-text2 {
+  font-size: 32px;
+  color: rgb(82, 60, 60);
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  text-align: center; /* Center text horizontally */
+  margin: 0 auto; /* Center text vertically */
+  max-width: 100%; /* Ensure it doesn't exceed the container's width */
+  padding: 20px;
+  line-height: 1.4; /* Improved line spacing for better readability */
+}
+
+/* Responsive styles for text on smaller screens */
+@media (max-width: 768px) {
+  .animated-text2 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
+

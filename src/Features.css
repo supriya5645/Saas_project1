@@ -1,0 +1,64 @@
+/* Default styles for the .features section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(45deg, #3498db, #2980b9, #4a90e2);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeInUp 2s ease-in-out infinite;
+  margin: 20px; /* Add margin for spacing between features */
+}
+
+.feature i {
+  font-size: 48px;
+  color: #3498db;
+}
+
+.feature h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2;
+}
+
+.feature p {
+  font-size: 22px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2;
+}
+
+/* Animation keyframes for fadeInUp */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+}

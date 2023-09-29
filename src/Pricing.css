@@ -1,0 +1,112 @@
+/* Pricing container */
+.pricing {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Pricing header styles */
+  .pricing-header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .pricing-header p {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* Pricing plan styles */
+  .pricing-plans {
+    display: flex;
+    flex-wrap: wrap; /* Allow plans to wrap to the next line on smaller screens */
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .pricing-plan {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    margin-bottom: 20px; /* Add margin to separate plans */
+  }
+  
+  .pricing-plan:hover {
+    transform: scale(1.05);
+  }
+  
+  .pricing-plan h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-plan p {
+    font-size: 22px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+/* Pricing price styles */
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3498db;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 100%; /* Ensure it doesn't exceed the container's width */
+  padding: 10px 0; /* Add padding for better spacing on smaller screens */
+  text-align: center; /* Center text horizontally */
+}
+
+/* Responsive styles for text on smaller screens */
+@media (max-width: 768px) {
+  .price {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
+
+  /* Pricing feature list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  li {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  /* Pricing button styles */
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive styles for single column layout on smaller screens */
+  @media (max-width: 768px) {
+    .pricing-plan {
+      flex: 1 0 100%; /* Force plans to take full width */
+      max-width: 100%;
+    }
+  }
+  

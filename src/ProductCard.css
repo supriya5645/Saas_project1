@@ -1,0 +1,61 @@
+/* Default styles */
+h1, p {
+    text-align: center; /* Center text within elements */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    h1, p {
+        margin: 0 auto; /* Center horizontally on smaller screens */
+    }
+}
+
+/* Attractive styles */
+h1 {
+    font-size: 36px; /* Decreased font size for h1 on smaller screens */
+    color: #a04beb; /* Change text color for h1 */
+    text-shadow: 1px 1px 2px rgba(66, 5, 35, 0.5); /* Add text shadow for h1 */
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px; /* Decreased font size for p on smaller screens */
+    color: #555; /* Change text color for p */
+}
+
+button {
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center horizontally */
+    background-color: #c60fde; /* Change button background color */
+    color: #fff; /* Change button text color */
+    padding: 10px 20px; /* Adjust button padding for smaller screens */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to the button */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 24px; /* Decreased font size for button on smaller screens */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hsl(216, 62%, 30%); /* Change button background color on hover */
+}
+
+.desc {
+    font-size: 28px; /* Decreased font size for .desc on smaller screens */
+    font-weight: bold;
+}
+
+.purchage {
+    font-size: 28px; /* Decreased font size for .purchage on smaller screens */
+    font-weight: bold;
+}
+
+.click {
+    font-size: 26px; /* Decreased font size for .click on smaller screens */
+    font-weight: bold;
+    color: #de0f20;
+}
